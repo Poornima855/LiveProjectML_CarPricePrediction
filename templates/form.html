@@ -1,0 +1,161 @@
+<html>
+<body>
+<form action="{{url_for('predict_datapoint')}}" method="POST">
+
+    
+    <div class="form-group">
+        <label for="Car_Name">Car_Name:</label>
+        <select id="Car_Name" name="Car_Name">
+            <option value="ritz">ritz</option>
+            <option value="sx4">sx4</option>
+            <option value="ciaz">ciaz</option>
+            <option value="wagon r">wagon r</option>
+            <option value="swift">swift</option>
+            <option value="vitara brezza">vitara brezza</option>
+            <option value="s cross">s cross</option>
+            <option value="alto 800">alto 800</option>
+            <option value="ertiga">ertiga</option>
+            <option value="dzire">dzire</option>
+            <option value="alto k10">alto k10</option>
+            <option value="ignis">ignis</option>
+            <option value="800">800</option>
+            <option value="baleno">baleno</option>
+            <option value="omni">omni</option>
+            <option value="fortuner">fortuner</option>
+            <option value="innova">innova</option>
+            <option value="corolla altis">corolla altis</option>
+            <option value="etios cross">etios cross</option>
+            <option value="etios g">etios g</option>
+            <option value="etios liva">etios liva</option>
+            <option value="corolla">corolla</option>
+            <option value="etios gd">etios gd</option>
+            <option value="camry">camry</option>
+            <option value="land cruiser">land cruiser</option>
+            <option value="Royal Enfield Thunder 500">Royal Enfield Thunder 500</option>
+            <option value="UM Renegade Mojave">UM Renegade Mojave</option>
+            <option value="KTM RC200">KTM RC200</option>
+            <option value="Bajaj Dominar 400">Bajaj Dominar 400</option>
+            <option value="Royal Enfield Classic 350">Royal Enfield Classic 350</option>
+            <option value="KTM RC390">KTM RC390</option>
+            <option value="Hyosung GT250R">Hyosung GT250R</option>
+            <option value="Royal Enfield Thunder 350">Royal Enfield Thunder 350</option>
+            <option value="KTM 390 Duke ">KTM 390 Duke </option>
+            <option value="Mahindra Mojo XT300">Mahindra Mojo XT300</option>
+            <option value="Bajaj Pulsar RS200">Bajaj Pulsar RS200</option>
+            <option value="Royal Enfield Bullet 350">Royal Enfield Bullet 350</option>
+            <option value="Royal Enfield Classic 500">Royal Enfield Classic 500</option>
+            <option value="Bajaj Avenger 220">Bajaj Avenger 220</option>
+            <option value="Bajaj Avenger 150">Bajaj Avenger 150</option>
+            <option value="Honda CB Hornet 160R">Honda CB Hornet 160R</option>
+            <option value="Yamaha FZ S V 2.0">Yamaha FZ S V 2.0</option>
+            <option value="Yamaha FZ 16">Yamaha FZ 16</option>
+            <option value="TVS Apache RTR 160">TVS Apache RTR 160</option>
+            <option value="Bajaj Pulsar 150">Bajaj Pulsar 150</option>
+            <option value="Honda CBR 150">Honda CBR 150</option>
+            <option value="Hero Extreme">Hero Extreme</option>
+            <option value="Bajaj Avenger 220 dtsi">Bajaj Avenger 220 dtsi</option>
+            <option value="Bajaj Avenger 150 street">Bajaj Avenger 150 street</option>
+            <option value="Yamaha FZ  v 2.0">Yamaha FZ  v 2.0</option>
+            <option value="Bajaj Pulsar  NS 200">Bajaj Pulsar  NS 200</option>
+            <option value="Bajaj Pulsar 220 F">Bajaj Pulsar 220 F</option>
+            <option value="TVS Apache RTR 180">TVS Apache RTR 180</option>
+            <option value="Hero Passion X pro">Hero Passion X pro</option>
+            <option value="Bajaj Pulsar NS 200">Bajaj Pulsar NS 200</option>
+            <option value="Yamaha Fazer ">Yamaha Fazer </option>
+            <option value="Honda Activa 4G">Honda Activa 4G</option>
+            <option value="TVS Sport ">TVS Sport </option>
+            <option value="Honda Dream Yuga ">Honda Dream Yuga </option>
+            <option value="Bajaj Avenger Street 220">Bajaj Avenger Street 220</option>
+            <option value="Hero Splender iSmart">Hero Splender iSmart</option>
+            <option value="Activa 3g">Activa 3g</option>
+            <option value="Hero Passion Pro">Hero Passion Pro</option>
+            <option value="Honda CB Trigger">Honda CB Trigger</option>
+            <option value="Yamaha FZ S ">Yamaha FZ S </option>
+            <option value="Bajaj Pulsar 135 LS">Bajaj Pulsar 135 LS</option>
+            <option value="Activa 4g">Activa 4g</option>
+            <option value="Honda CB Unicorn">Honda CB Unicorn</option>
+            <option value="Hero Honda CBZ extreme">Hero Honda CBZ extreme</option>
+            <option value="Honda Karizma">Honda Karizma</option>
+            <option value="Honda Activa 125">Honda Activa 125</option>
+            <option value="TVS Jupyter">TVS Jupyter</option>
+            <option value="Hero Honda Passion Pro">Hero Honda Passion Pro</option>
+            <option value="Hero Splender Plus">Hero Splender Plus</option>
+            <option value="Honda CB Shine">Honda CB Shine</option>
+            <option value="Bajaj Discover 100">Bajaj Discover 100</option>
+            <option value="Suzuki Access 125">Suzuki Access 125</option>
+            <option value="TVS Wego">TVS Wego</option>
+            <option value="Honda CB twister">Honda CB twister</option>
+            <option value="Hero Glamour">Hero Glamour</option>
+            <option value="Hero Super Splendor">Hero Super Splendor</option>
+            <option value="Bajaj Discover 125">Bajaj Discover 125</option>
+            <option value="Hero Hunk">Hero Hunk</option>
+            <option value="Hero  Ignitor Disc">Hero  Ignitor Disc</option>
+            <option value="Hero  CBZ Xtreme">Hero  CBZ Xtreme</option>
+            <option value="Bajaj  ct 100">Bajaj  ct 100</option>
+            <option value="i20">i20</option>
+            <option value="grand i10">grand i10</option>
+            <option value="i10">i10</option>
+            <option value="eon">eon</option>
+            <option value="xcent">xcent</option>
+            <option value="elantra">elantra</option>
+            <option value="creta">creta</option>
+            <option value="verna">verna</option>
+            <option value="city">city</option>
+            <option value="brio">brio</option>
+            <option value="amaze">amaze</option>
+            <option value="jazz">jazz</option>
+
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="Selling_Price">Selling_Price:</label>
+        <input type="text" id="Selling_Price" name="Selling_Price" placeholder="Enter Selling Price value (float)">
+    </div>
+
+    <div class="form-group">  
+        <label for="Kms_Driven">Kms_Driven:</label>
+        <input type="text" id="Kms_Driven" name="Kms_Driven" placeholder="Enter Kms_Driven value (int)">
+    </div>
+    
+    <div class="form-group">
+        <label for="Owner">Owner:</label>
+        <input type="text" id="Owner" name="Owner" placeholder="Enter Owner (int)">
+    </div>
+  
+    <div class="form-group">
+        <label for="Year">Year:</label>
+        <input type="text" id="Year" name="Year" placeholder="Enter Year (int)">
+    </div>
+     
+  
+<div class="form-group">
+  <label for="Fuel_Type">fuel_Type:</label>
+  <select id="Fuel_Type" name="Fuel_Type">
+    <option value="Petrol">Petrol</option>
+    <option value="Diesel">Diesel</option>
+    <option value="CNG">CNG</option>
+  </select>
+</div>
+
+<div class="form-group">
+  <label for="Seller_Type">Seller_Type:</label>
+  <select id="Seller_Type" name="Seller_Type">
+    <option value="Individual">Individual</option>
+    <option value="Dealer">Dealer</option>
+  </select>
+</div>
+
+<div class="form-group">
+    <label for="Transmission">Transmission:</label>
+    <select id="Transmission" name="Transmission">
+      <option value="Automatic">Automatic</option>
+      <option value="Manual">Manual</option>
+    </select>
+  </div>
+
+<div style="clear:both;"></div>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
