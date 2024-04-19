@@ -1,0 +1,6 @@
+setup.py
+MLPipeline.egg-info/PKG-INFO
+MLPipeline.egg-info/SOURCES.txt
+MLPipeline.egg-info/dependency_links.txt
+MLPipeline.egg-info/requires.txt
+MLPipeline.egg-info/top_level.txt

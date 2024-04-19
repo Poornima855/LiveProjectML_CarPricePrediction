@@ -1,0 +1,13 @@
+prefix=D:/ML_Project_Loan_Status/venv/Library
+exec_prefix=D:/ML_Project_Loan_Status/venv/Library
+libdir=D:/ML_Project_Loan_Status/venv/Library/lib
+sharedlibdir=D:/ML_Project_Loan_Status/venv/Library/lib
+includedir=D:/ML_Project_Loan_Status/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
