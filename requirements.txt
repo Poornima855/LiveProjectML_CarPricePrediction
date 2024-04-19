@@ -4,5 +4,7 @@ flask
 scikit-learn
 seaborn
 datetime
-logging
-typing
+pyodbc
+fastapi
+uvicorn[standard]
+pydantic
