@@ -1,4 +1,4 @@
-#!d:\ML_Project_Car_Price\venv\python.exe
+#!D:\ML_Project_Car_Price\venv\python.exe
 # EASY-INSTALL-ENTRY-SCRIPT: 'fonttools==4.51.0','console_scripts','pyftmerge'
 import re
 import sys

@@ -1,4 +1,4 @@
-#!d:\ML_Project_Car_Price\venv\python.exe
+#!D:\ML_Project_Car_Price\venv\python.exe
 # EASY-INSTALL-ENTRY-SCRIPT: 'flask==3.0.3','console_scripts','flask'
 import re
 import sys

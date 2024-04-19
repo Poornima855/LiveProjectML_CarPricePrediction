@@ -15,7 +15,7 @@ def get_requirements(file_path:str)-> List[str]:
 
 setup(
     name = "MLPipeline", 
-    version = "0.0.1", 
+    version = "0.0.2", 
     author = "Poornima Katgi", 
     description= "An End to End ML project - Car Price",
     author_email= "poornimakatgi855@gmail.com", 

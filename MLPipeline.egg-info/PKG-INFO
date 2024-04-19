@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: MLPipeline
-Version: 0.0.1
+Version: 0.0.2
 Summary: An End to End ML project - Car Price
 Author: Poornima Katgi
 Author-email: poornimakatgi855@gmail.com
@@ -11,3 +11,4 @@ Requires-Dist: scikit-learn
 Requires-Dist: seaborn
 Requires-Dist: datetime
 Requires-Dist: logging
+Requires-Dist: typing

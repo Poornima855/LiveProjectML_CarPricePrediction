@@ -1,4 +1,4 @@
-#!d:\ML_Project_Car_Price\venv\python.exe
+#!D:\ML_Project_Car_Price\venv\python.exe
 # EASY-INSTALL-ENTRY-SCRIPT: 'numpy==2.0.0rc1','console_scripts','numpy-config'
 import re
 import sys
