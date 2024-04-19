@@ -1,0 +1,6 @@
+[2024-04-19 19:04:39,641] 96 werkzeug - WARNING -  * Debugger is active!
+[2024-04-19 19:04:39,648] 96 werkzeug - INFO -  * Debugger PIN: 340-904-419
+[2024-04-19 19:04:44,314] 96 werkzeug - INFO - 127.0.0.1 - - [19/Apr/2024 19:04:44] "GET /predict HTTP/1.1" 200 -
+[2024-04-19 19:05:05,462] 60 root - INFO - Dataframe created
+[2024-04-19 19:05:05,551] 96 werkzeug - INFO - 127.0.0.1 - - [19/Apr/2024 19:05:05] "POST /predict HTTP/1.1" 200 -
+[2024-04-19 19:05:12,841] 96 werkzeug - INFO - 127.0.0.1 - - [19/Apr/2024 19:05:12] "GET /predict HTTP/1.1" 200 -

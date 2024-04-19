@@ -1,0 +1,11 @@
+[2024-04-19 18:16:26,121] 25 root - INFO - Data Ingestion methods Starts
+[2024-04-19 18:16:26,126] 28 root - INFO - Dataset read as pandas Dataframe
+[2024-04-19 18:16:26,129] 32 root - INFO - Train test split
+[2024-04-19 18:16:26,135] 42 root - INFO - Ingestion of Data is completed
+[2024-04-19 18:16:26,139] 108 root - INFO - Obtaining the preprocessing object
+[2024-04-19 18:16:26,139] 29 root - INFO - Data Transformation has been initiated
+[2024-04-19 18:16:26,139] 68 root - INFO - Pipeline Initiated
+[2024-04-19 18:16:26,157] 124 root - INFO - Applying the preprocessing object to train and test datasets
+[2024-04-19 18:16:26,160] 25 root - INFO - Seggregating the dependent and independent variables
+[2024-04-19 18:16:26,175] 41 root - INFO - Model Report: {'LinearRegression': np.float64(0.8470366804058972), 'Ridge': np.float64(0.8496743766692418), 'Lasso': np.float64(0.8428820404928283), 'ElasticNet': np.float64(0.8153956156576333), 'DecisionTree': np.float64(0.8472698991041403)}
+[2024-04-19 18:16:26,182] 52 root - INFO - The best model is Ridge, with R2 Score: 0.8496743766692418
