@@ -6,4 +6,3 @@ seaborn
 datetime
 logging
 typing
--e .
